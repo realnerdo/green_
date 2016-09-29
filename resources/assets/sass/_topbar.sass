@@ -1,15 +1,42 @@
 /* Topbar */
 
 .topbar
-    border-bottom: 1px solid $border
     .logo
         text-decoration: none
+        margin-right: 0.5rem
     .search
         display: inline-block
+        background: $white
+        border-radius: rem(2px)
         .search-form
             .query
                 border: none
                 outline: none
                 color: $green
-                font-size: 13px
-                border-bottom: 1px solid $green
+                +font-size(13px)
+                border-bottom: 2px solid $green
+                background: none
+                padding: 0.5rem
+                width: 15rem
+    .sell_button
+        display: inline-block
+        background: $green
+        color: $white
+        border-radius: rem(2px)
+        padding: 0.5rem 0.8rem
+        +font-size(13px)
+        text-decoration: none
+        box-shadow: 0 3px 8px 0 rgba($black, 0.25)
+
+.top_links
+    background: $greener
+    border-top: 1px solid $border
+    border-bottom: 1px solid $border
+    .links
+        +clear
+        .item
+            float: left
+            margin-right: 1rem
+            .link
+                color: $grayer
+                text-decoration: none

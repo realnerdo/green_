@@ -1,0 +1,32 @@
+=font-size($size)
+    font-size: $size
+    font-size: rem($size)
+
+=opacity($opacity)
+    @if $opacity == 0
+        visibility: hidden
+    @else
+        visibility: visible
+    opacity: $opacity
+    $opacity-ie: $opacity * 100
+    filter: alpha(opacity=$opacity-ie)
+
+=clear
+    content: " "
+    display: table
+    clear: both
+
+=shadow
+    box-shadow: 0 0 6px 3px rgba($black, 0.15)
+
+=heading-size($size, $step-size-heading: 0.3333, $amplifier-heading: 1.2)
+    font-size: $size * $step-size-heading * $amplifier-heading + rem
+
+=headings
+    @for $i from 1 through 6
+        h#{$i}
+            +heading-size(7 - $i)
+            margin: 1.8em 0 0.5em 0
+            line-height: 1.3em
+            color: darken($gray, 15)
+            font-family: 'Montserrat', Helvetica, Arial, sans-serif

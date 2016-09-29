@@ -18,6 +18,14 @@ elixir.config.sourcemaps = false;
 elixir(mix => {
     mix.sass([
         './node_modules/minireset.css/minireset.sass',
+        '../bower/glidejs/dist/css/glide.core.min.css',
+        '../bower/glidejs/dist/css/glide.theme.css',
         'master.sass',
     ], 'public/css/master.css');
+
+    mix.scripts([
+        '../bower/jquery/dist/jquery.js',
+        '../bower/glidejs/dist/glide.min.js',
+        'scripts.js'
+    ], 'public/js/scripts.js');
 });

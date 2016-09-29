@@ -8,5 +8,9 @@
     </head>
     <body>
         @yield('topbar')
+        @yield('content')
+        @yield('footer')
+
+        {!! Html::script('js/scripts.js') !!}
     </body>
 </html>
