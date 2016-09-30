@@ -1,4 +1,4 @@
-<footer>
+<footer id="footer">
     <div class="wrapper">
         <div class="row">
             <div class="col-2"></div><!-- end offset -->
@@ -83,8 +83,8 @@
                 <p>Puedes pagar con</p>
             </div><!-- end col-2 newsletter -->
         </div><!-- end row -->
-        <div class="row">
-            <div class="col-6">
+        <div class="row bottom">
+            <div class="col-6 copyright">
                 <p>© Copyright 2016 - Green Store. Todos los derechos reservados.</p>
             </div><!-- end col-6 -->
             <div class="col-6">
@@ -102,4 +102,4 @@
             </div><!-- end col-6 -->
         </div><!-- end row -->
     </div><!-- end wrapper -->
-</footer>
+</footer><!-- end footer -->

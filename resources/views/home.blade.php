@@ -10,6 +10,7 @@
     @include('layout.banner')
     @include('layout.newest')
     @include('layout.stripe')
+    @include('layout.collections')
 @endsection
 
 @section('footer')
