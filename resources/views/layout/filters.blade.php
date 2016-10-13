@@ -45,23 +45,23 @@
     </section><!-- end section -->
     <section class="section">
         <h3 class="title">Calificación</h3>
-        <ul class="rating">
-            <li class="rate">
+        <ul class="ratings">
+            <li class="rating">
                 <!-- 5 -->
-            </li><!-- end rate -->
-            <li class="rate">
+            </li><!-- end rating -->
+            <li class="rating">
                 <!-- 4 -->
-            </li><!-- end rate -->
-            <li class="rate">
+            </li><!-- end rating -->
+            <li class="rating">
                 <!-- 3 -->
-            </li><!-- end rate -->
-            <li class="rate">
+            </li><!-- end rating -->
+            <li class="rating">
                 <!-- 2 -->
-            </li><!-- end rate -->
-            <li class="rate">
+            </li><!-- end rating -->
+            <li class="rating">
                 <!-- 1 -->
-            </li><!-- end rate -->
-        </ul><!-- end rating -->
+            </li><!-- end rating -->
+        </ul><!-- end ratings -->
     </section><!-- end section -->
 
 </aside><!-- end filters -->

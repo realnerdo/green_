@@ -7,6 +7,8 @@
             <div class="search">
                 {!! Form::open(['url' => 'foo/bar', 'class' => 'search-form']) !!}
                     {!! Form::text('search', null, ['class' => 'query', 'placeholder' => 'Buscar...']) !!}
+                    {!! Form::select('categories', ['Todas las categorías', 'Muebles', 'Ropa', 'Jardín'], null, ['class' => 'select-category']) !!}
+                    {!! Form::submit('', ['class' => 'submit']) !!}
                 {!! Form::close() !!}
             </div>
         </div><!-- end col-6 -->

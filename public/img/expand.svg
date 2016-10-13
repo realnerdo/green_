@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="6px" viewBox="0 0 11 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>Expand_More</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="topbar" transform="translate(-1294.000000, -33.000000)" fill="#1ABC9C">
+            <g id="profile">
+                <g transform="translate(1251.000000, 18.000000)">
+                    <path d="M52.8508846,15.1600577 L48.3897308,19.6222885 L43.9285769,15.1595192 C43.7158846,14.9468269 43.3718077,14.9468269 43.1591154,15.1595192 C42.9469615,15.3722115 42.9469615,15.7168269 43.1591154,15.9295192 L48.0047308,20.77675 L48.0047308,20.77675 L48.0047308,20.77675 C48.2168846,20.9894423 48.5615,20.9894423 48.7736538,20.77675 L53.6192692,15.9295192 C53.8314231,15.7168269 53.8314231,15.3716731 53.6192692,15.1589808 C53.4076538,14.9473654 53.0630385,14.9473654 52.8508846,15.1600577 L52.8508846,15.1600577 Z" id="Expand_More"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

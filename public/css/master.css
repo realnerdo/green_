@@ -325,23 +325,58 @@ img {
 /* Topbar */
 .topbar .logo {
   text-decoration: none;
-  margin-right: 0.5rem; }
+  margin-right: 0.5rem;
+  position: relative;
+  top: -0.7142857143rem; }
 
 .topbar .search {
   display: inline-block;
   background: #FFFFFF;
   border-radius: 0.1428571429rem;
-  overflow: hidden; }
-  .topbar .search .search-form .query {
-    border: none;
-    outline: none;
-    color: #1ABC9C;
-    font-size: 13px;
-    font-size: 0.9285714286rem;
-    border-bottom: 2px solid #1ABC9C;
-    background: none;
-    padding: 0.5rem;
-    width: 15rem; }
+  overflow: hidden;
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.08); }
+  .topbar .search .search-form {
+    position: relative;
+    content: " ";
+    display: table;
+    clear: both; }
+    .topbar .search .search-form > * {
+      display: block;
+      float: left; }
+    .topbar .search .search-form .query {
+      border: none;
+      outline: none;
+      color: #1ABC9C;
+      font-size: 13px;
+      font-size: 0.9285714286rem;
+      font-family: "Montserrat", sans-serif;
+      border-bottom: 2px solid #1ABC9C;
+      background: none;
+      padding: 0.5rem;
+      width: 15rem; }
+    .topbar .search .search-form .select-category {
+      font-size: 13px;
+      font-size: 0.9285714286rem;
+      color: #F39C12;
+      font-family: "Montserrat", sans-serif;
+      margin-right: 2.2rem;
+      -webkit-appearance: none;
+      padding: 0.5rem;
+      background: #FFFFFF;
+      border: none;
+      border-bottom: 2px solid #F39C12;
+      border-radius: 0;
+      outline: none; }
+    .topbar .search .search-form .submit {
+      cursor: pointer;
+      border: none;
+      outline: none;
+      background: #1ABC9C;
+      height: 100%;
+      width: 2.2857142857rem;
+      position: absolute;
+      top: 0;
+      right: 0; }
 
 .topbar .sell_button {
   display: inline-block;

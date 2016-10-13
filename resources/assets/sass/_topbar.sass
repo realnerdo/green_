@@ -4,21 +4,52 @@
     .logo
         text-decoration: none
         margin-right: 0.5rem
+        position: relative
+        top: rem(-10px)
     .search
         display: inline-block
         background: $white
         border-radius: rem(2px)
         overflow: hidden
+        box-shadow: 0 3px 8px 0 rgba($black, 0.08)
         .search-form
+            position: relative
+            +clear
+            & > *
+                display: block
+                float: left
             .query
                 border: none
                 outline: none
                 color: $green
                 +font-size(13px)
+                font-family: $montserrat
                 border-bottom: 2px solid $green
                 background: none
                 padding: 0.5rem
                 width: 15rem
+            .select-category
+                +font-size(13px)
+                color: $orange
+                font-family: $montserrat
+                margin-right: 2.2rem
+                -webkit-appearance: none
+                padding: 0.5rem
+                background: $white
+                border: none
+                border-bottom: 2px solid $orange
+                border-radius: 0
+                outline: none
+            .submit
+                cursor: pointer
+                border: none
+                outline: none
+                background: $green
+                height: 100%
+                width: rem(32px)
+                position: absolute
+                top: 0
+                right: 0
     .sell_button
         display: inline-block
         background: $green
