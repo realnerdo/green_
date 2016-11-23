@@ -12,5 +12,11 @@
         @yield('footer')
 
         {!! Html::script('js/scripts.js') !!}
+
+        @if ( Config::get('app.debug') )
+          <script type="text/javascript">
+            document.write('<script src="//green.dev:35729/livereload.js?snipver=1" type="text/javascript"><\/script>')
+          </script>
+        @endif
     </body>
 </html>

@@ -1,6 +1,7 @@
 const elixir = require('laravel-elixir');
 
 require('laravel-elixir-vue');
+require('laravel-elixir-livereload');
 
 /*
  |--------------------------------------------------------------------------
@@ -28,4 +29,6 @@ elixir(mix => {
         '../bower/glidejs/dist/glide.min.js',
         'scripts.js'
     ], 'public/js/scripts.js');
+
+    mix.livereload();
 });

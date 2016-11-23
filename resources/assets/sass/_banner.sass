@@ -5,6 +5,31 @@
     .glide__wrapper
         .glide__track
             .glide__slide
+                position: relative
                 .img
-                    // width: 100%
+                    width: 100%
                     border-radius: rem(2px)
+                .content
+                    text-align: center
+                    position: absolute
+                    top: 50%
+                    left: 50%
+                    transform: translate(-50%, -50%)
+                    width: 80%
+                    .caption
+                        color: $white
+                        font-family: $gumption
+                        +font-size(44px)
+                        margin-bottom: 2rem
+                    .link
+                        display: inline-block
+                        color: $white
+                        text-decoration: none
+                        border: 2px solid $white
+                        border-radius: rem(5px)
+                        +font-size(20px)
+                        padding: 0.5rem 1rem
+                        &:hover
+                            background: $white
+                            color: $green
+                            transition: all 0.3s ease-in-out

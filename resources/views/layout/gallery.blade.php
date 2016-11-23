@@ -1,7 +1,7 @@
 <div class="col-5">
     <div class="gallery">
         <div class="main-photo">
-            <img src="http://placehold.it/470x470" alt="">
+            <img src="{{ asset('img/product.jpg') }}" alt="" class="img">
             <div class="price">$49</div>
         </div><!-- end main-photo -->
     </div><!-- end gallery -->

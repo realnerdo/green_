@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('producto', function () {
+    return view('product');
+});
+
+Route::get('busqueda', function () {
+    return view('search');
+});

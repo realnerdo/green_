@@ -1,6 +1,7 @@
 /* Footer */
 #footer
-    background: $white
+    background: url('../img/footer_bg.jpg') no-repeat top left
+    background-size: cover
     .title
         color: $grayer
         text-transform: uppercase
@@ -12,9 +13,50 @@
             .link
                 color: $green
                 text-decoration: none
+    p
+        color: $grayer
+        margin-bottom: 1rem
+    .newsletter-form
+        display: inline-block
+        margin-bottom: 1rem
+        .input-wrapper
+            +clear
+            background: $white
+            border: 1px solid $border
+            border-radius: rem(2px)
+            overflow: hidden
+            .email
+                float: left
+                background: none
+                border: none
+                +font-size(13px)
+                padding: 0.5rem 1rem
+                outline: none
+                width: rem(160px)
+            .submit
+                float: left
+                background: $green
+                border: none
+                color: $white
+                +font-size(13px)
+                padding: 0.5rem 1rem
+                &:hover
+                    cursor: pointer
     .bottom
         border-top: 1px solid $border
+        .col-6:nth-child(2)
+            text-align: right
         .copyright
             color: $grayer
             +font-size(12px)
         .social
+            +clear
+            display: inline-block
+            .item
+                float: left
+                margin-right: 0.5rem
+    .payments
+        +clear
+        .payment
+            float: left
+            margin-right: 0.5rem

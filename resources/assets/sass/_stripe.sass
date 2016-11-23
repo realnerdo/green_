@@ -1,9 +1,49 @@
 /* Stripe */
 .stripe
-    background: $greener
+    background: #F9FAFA
     border-top: 1px solid $border
     border-bottom: 1px solid $border
     padding: 0.5rem 0
     span
         +font-size(13px)
         color: $grayer
+        &:first-child
+            position: relative
+            top: rem(-10px)
+    .newsletter-form
+        display: inline-block
+        .input-wrapper
+            +clear
+            background: $white
+            border: 1px solid $border
+            border-radius: rem(2px)
+            overflow: hidden
+            .email
+                float: left
+                background: none
+                border: none
+                +font-size(13px)
+                padding: 0.5rem 1rem
+                outline: none
+                width: rem(160px)
+            .submit
+                float: left
+                background: $green
+                border: none
+                color: $white
+                +font-size(13px)
+                padding: 0.5rem 1rem
+                &:hover
+                    cursor: pointer
+    .payment-options
+        position: relative
+        top: rem(10px)
+        .payments
+            +clear
+            display: inline-block
+            position: relative
+            top: rem(-5px)
+            margin-left: 0.5rem
+            .payment
+                float: left
+                margin-right: 0.5rem

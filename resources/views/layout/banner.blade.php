@@ -9,13 +9,25 @@
         <div class="glide__wrapper">
             <ul class="glide__track">
                 <li class="glide__slide">
-                    <img src="http://placehold.it/1200x400" class="img">
+                    <img src="{{ asset('img/slider.jpg') }}" class="img">
+                    <div class="content">
+                        <h2 class="caption">Decora tu casa con los mejores productos</h2>
+                        <a href="#" class="link">Explora nuestra selección</a>
+                    </div><!-- end content -->
                 </li>
                 <li class="glide__slide">
-                    <img src="http://placehold.it/1200x400" class="img">
+                    <img src="{{ asset('img/slider.jpg') }}" class="img">
+                    <div class="content">
+                        <h2 class="caption">Decora tu casa con los mejores productos</h2>
+                        <a href="#" class="link">Explora nuestra selección</a>
+                    </div><!-- end content -->
                 </li>
                 <li class="glide__slide">
-                    <img src="http://placehold.it/1200x400" class="img">
+                    <img src="{{ asset('img/slider.jpg') }}" class="img">
+                    <div class="content">
+                        <h2 class="caption">Decora tu casa con los mejores productos</h2>
+                        <a href="#" class="link">Explora nuestra selección</a>
+                    </div><!-- end content -->
                 </li>
             </ul>
         </div>

@@ -3,20 +3,20 @@
     <div class="row">
         <div class="col-4">
             <div class="collection">
-                <img src="http://placehold.it/370x250" alt="" class="img">
+                <img src="{{ asset('img/collection1.jpg') }}" alt="" class="img">
                 <h3 class="title">Naturaleza dentro del hogar</h3>
             </div><!-- end product -->
         </div><!-- end col-3 -->
         <div class="col-4">
             <div class="collection">
-                <img src="http://placehold.it/370x250" alt="" class="img">
-                <h3 class="title">Naturaleza dentro del hogar</h3>
+                <img src="{{ asset('img/collection2.jpg') }}" alt="" class="img">
+                <h3 class="title">Fiesta toda la noche</h3>
             </div><!-- end product -->
         </div><!-- end col-3 -->
         <div class="col-4">
             <div class="collection">
-                <img src="http://placehold.it/370x250" alt="" class="img">
-                <h3 class="title">Naturaleza dentro del hogar</h3>
+                <img src="{{ asset('img/collection3.jpg') }}" alt="" class="img">
+                <h3 class="title">Ponle pausa un rato</h3>
             </div><!-- end product -->
         </div><!-- end col-3 -->
     </div><!-- end row -->
